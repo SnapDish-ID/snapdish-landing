@@ -1,0 +1,20 @@
+runtime: nodejs18
+
+instance_class: F1
+
+handlers:
+  - url: /
+    static_files: index.html
+    upload: index.html
+
+  - url: /src
+    static_dir: src
+
+  - url: /style.css
+    static_dir: src/style.css
+
+  - url: /src/images
+    static_dir: src/images
+
+  - url: /.*
+    script: auto

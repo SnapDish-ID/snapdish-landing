@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>SnapDish</title>
+
+    <!-- font: Nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- styling -->
+    <link rel="stylesheet" href="./src/style.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header class="navbar-container">
+      <nav class="logo">
+        <a href="/">
+          <img src="./src/images/logo.png" alt="SnapDish" />
+          <h1>SnapDish</h1>
+        </a>
+      </nav>
+      <nav class="nav-list">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#Features">Features</a></li>
+          <li>
+            <a
+              href="https://github.com/SnapDish-id"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <div class="image-hero">
+          <img src="./src/images/snapdish-hero.png" alt="SnapDish" />
+        </div>
+        <div class="tagline-hero">
+          <h1>Snap a picture, get recipe ideas</h1>
+          <h3>Let's make the most out of your food ingredients</h3>
+          <!-- TODO: Change href link -->
+          <a class="button" href="https://github.com/SnapDish-id">Try now!</a>
+        </div>
+      </div>
+      <div class="features" id="Features">
+        <div class="cta">
+          <h2>Make every food ingredients count</h2>
+          <p>
+            SnapDish is an innovative application designed to streamline meal
+            preparation by providing food recommendations and recipes based on
+            ingredients users have on hand. Through advanced image processing
+            and manual input, SnapDish can quickly identify ingredients and
+            provide top 3 most suitable food recommendations based on identified
+            ingredients. By delivering a practical tool to mitigate food waste,
+            SnapDish aims to empower users to maximize their ingredients while
+            promoting environmentally responsible behaviors.
+          </p>
+        </div>
+        <div class="feat-container">
+          <div class="feat-card">
+            <h3>Object Detection</h3>
+            <p>
+              SnapDish can detect food ingredients from a picture by using
+              machine learning. It will scan multiple objects in a picture and
+              produce a list of ingredients as an output.
+            </p>
+          </div>
+          <div class="feat-card">
+            <h3>Natural Language Processing</h3>
+            <p>
+              SnapDish will give you recipe recommendation based on ingredients
+              detected.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&#169; 2024 | <b>SnapDish-ID</b></p>
+      <ul class="socials">
+        <li>
+          <a
+            href="https://github.com/SnapDish-id"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
